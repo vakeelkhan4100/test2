@@ -8,6 +8,5 @@ app.use(router)
 hostconnect();
 config();
 app.listen(process.env.PORT || 3000,(req,res)=>{
-    console.log("server is run on 2000 port");
-    
+    console.log("server is run on 2000 port");    
 })
