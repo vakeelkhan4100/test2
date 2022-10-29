@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 app.use(router)
 hostconnect();
-app.listen(2000,(req,res)=>{
+app.listen(2004,(req,res)=>{
     console.log("server is run on 2000 port");
     
 })
