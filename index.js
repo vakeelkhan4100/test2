@@ -4,6 +4,7 @@ import hostconnect from "./config/db.js";
 import { config } from "dotenv";
 const app = express();
 config();
+console.log("PORT----",process.env.PORT);
 app.use(express.json());
 app.use(router)
 hostconnect();
